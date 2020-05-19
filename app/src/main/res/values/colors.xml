@@ -5,4 +5,8 @@
     <color name="colorAccent">#D81B60</color>
     <color name="textColor">#844046</color>
     <color name="backgroundColor">#FEF1E0</color>
+    <color name="textBackgroundColor">#C846DCE0</color>
+    <color name="ageTExtColor">#FFFFFF</color>
+    <color name="buttonText">#929292</color>
+    <color name="selectedDate">#B7B7B7</color>
 </resources>

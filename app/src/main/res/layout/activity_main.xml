@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     android:gravity="center_horizontal"
     android:orientation="vertical"
+    android:padding="16dp"
     android:background="@color/backgroundColor"
     tools:context=".MainActivity">
 
@@ -15,6 +16,74 @@
         android:layout_marginTop="15dp"
         android:text="@string/Title"
         android:textSize="25sp"
-        android:textColor="@color/textColor"/>
+        android:textColor="@color/textColor"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="@string/age"
+        android:textSize="25sp"
+        android:textColor= "@color/ageTExtColor"
+        android:background="@color/textBackgroundColor"
+        android:padding="10dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="@string/titleExtend"
+        android:textSize="25sp"
+        android:textColor="@color/textColor"
+        android:textStyle="bold"/>
+    
+    <Button
+        android:id="@+id/dateSelect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dateTitle"
+        android:textStyle="bold"
+        android:layout_marginTop="15dp"
+        android:textSize="20sp"
+        android:textColor="@color/buttonText"
+        android:background="@color/ageTExtColor" />
+
+    <TextView
+        android:id="@+id/tvSelectedDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/textColor"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/selectedDate"
+        android:text="@string/selected"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/tvselectedDateInMinutes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/textColor"
+        android:layout_marginTop="20dp"
+        android:textSize="35sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/selectedDate"
+        android:text="@string/ageInMinutes"
+        android:textSize="18sp"/>
+
+
+
+
+
+
 
 </LinearLayout>
